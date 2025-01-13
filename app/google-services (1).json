@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "615926808254",
+    "project_id": "nth-facility-416119",
+    "storage_bucket": "nth-facility-416119.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615926808254:android:e921a3efbbb0cf6f82e8ef",
+        "android_client_info": {
+          "package_name": "com.authentication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4sAzMBIKoUMMV3dlclxBdG9bm30qr5fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

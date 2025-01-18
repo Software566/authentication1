@@ -47,14 +47,12 @@ public class Login extends AppCompatActivity {
         textView = findViewById(R.id.SignupNow);
 
 
-        // Using lambda for OnClickListener
         textView.setOnClickListener(v -> {
             Intent intent = new Intent(getApplicationContext(), signup.class);
             startActivity(intent);
             finish();
         });
 
-        // Using lambda for OnCompleteListener
         loginButton.setOnClickListener(view -> {
             progressBar.setVisibility(View.VISIBLE);
             String email = String.valueOf(editTextEmail.getText());
